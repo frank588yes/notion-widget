@@ -27,10 +27,12 @@ button::-moz-focus-inner {
 
 #calendari {
     margin:  0 auto;
-    height: 200px;
-    width: 200px;
+    /* height: 200px; */
+    /* width: 200px; */
     font-size: 14px;
     /* box-shadow: 0px 1px 4px rgba(0,0,0,0.4); */
+	transform: scale(0.8); /* 0.8 表示縮小為 80%，你可以自行調整 */
+    transform-origin: top center; /* 確保縮放後置中對齊 */
 }
 table {
     border-collapse: collapse;
